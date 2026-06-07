@@ -1,0 +1,62 @@
+.route-container {
+  padding: 20px;
+  background: #f9fafc;
+  min-height: 80vh;
+  color: #222;
+}
+
+.route-inputs {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.route-inputs input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+}
+
+.search-btn {
+  padding: 10px 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.search-btn:hover {
+  background-color: #0056b3;
+}
+
+.route-results {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.route-card {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 12px;
+  background: white;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.route-card:hover {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.2);
+}
+
+.route-card.selected {
+  border: 2px solid #007bff;
+  background: #e7f0ff;
+}
+
+.hint {
+  color: #777;
+}
